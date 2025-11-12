@@ -73,7 +73,7 @@ h1 {
 .hero article {
    position: absolute;
    background-color: var(--accent1-color); 
-   color: #fff;
+   color: var( --accent2-color);
    bottom: 10px;
    opacity: .8;
 }
