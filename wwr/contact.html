@@ -38,32 +38,34 @@
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7929.092466432675!2d3.4276251811457983!3d6.452249197042035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4c613e4e5f5%3A0x422e704ddd2054a2!2sThe%20Heritage%20Place!5e0!3m2!1sen!2sng!4v1764028686762!5m2!1sen!2sng"
-                    width="100%" height="450" allowfullscreen="" loading="lazy"
+                    width="400" height="450" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="forms">
                 <form>
                     <div class="input-control">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Enter name" required />
+                        <input type="text" id="name" name="name" placeholder="Enter name" required>
                     </div>
                     <div class="input-control">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Enter email" required />
+                        <input type="email" id="email" name="email" placeholder="Enter email" required>
                     </div>
                     <div class="input-control">
-                        <label for="message">Message Purpose</label>
+                        <label>Message Purpose</label>
                         <div class="radio-control">
                             <div class="space">
-                                <label><input type="radio" id="message" name="message" /><span>General
+                                <label for="inquiry"><input type="radio" id="inquiry" name="message" /><span>General
                                         Inquiry</span></label>
                             </div>
                             <div class="space">
-                                <label><input type="radio" id="message" name="message" /><span>Reservation
+                                <label for="reservation"><input type="radio" id="reservation"
+                                        name="message" /><span>Reservation
                                         Question</span></label>
                             </div>
                             <div class="space">
-                                <label><input type="radio" id="message" name="message" /><span>Website
+                                <label for="suggestion"><input type="radio" id="suggestion"
+                                        name="message" /><span>Website
                                         Suggestion</span></label>
                             </div>
                         </div>
@@ -75,7 +77,7 @@
                     </div>
                     <div>
                         <label for="subscribe">
-                            <input type="checkbox" name="subscribe" id="subscribe" />
+                            <input type="checkbox" name="subscribe" id="subscribe">
                             Please Subscribe me to the monthly newletter
                         </label>
 
@@ -84,7 +86,6 @@
                         <button type="submit">Get in Touch!</button>
                     </div>
                 </form>
-            </div>
             </div>
         </section>
         <section>
