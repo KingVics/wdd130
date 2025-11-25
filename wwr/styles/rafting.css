@@ -17,10 +17,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    
 }
-
-
 
 header, main, footer {
     width: 840px;
@@ -49,8 +46,6 @@ nav ul {
     display: flex;
     gap: 5px;
     list-style: none;
-   
-
 }
 
 nav li  {
@@ -141,6 +136,7 @@ section {
 .adventure img {
     width: 100%;
 }
+
 footer img {
     width: 30px;
 }
@@ -158,4 +154,125 @@ footer p {
 footer nav {
     margin: 0;
     padding: 0;
+}
+
+/* Contact form css */
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info h1 {
+    position: unset;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    opacity: 1;
+    background-color: unset;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.contact-info p {
+    margin: 0;
+    color: var(--primary-color);
+    padding: 5px;
+}
+
+.form-section {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+        gap: 20px;
+
+}
+
+.map {
+    grid-column: 1/9;
+}
+
+.forms {
+    grid-column: 9/16;
+}
+
+iframe {
+    border: none;
+}
+
+.input-control {
+    margin-block: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.input-control input, textarea {
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid var(--accent1-color);
+    width: 100%;
+    outline: none;
+    color:var(--accent1-color);
+    font-size: 1rem;
+}
+
+
+.input-control input::placeholder, textarea::placeholder {
+    color: var(--accent1-color);
+}
+
+.radio-control {
+    width: 100%;
+}
+
+.radio-control label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-control input {
+    width: unset;
+}
+
+.space {
+    margin: 15px;
+}
+
+.text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.button-info {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-block: 15px;
+}
+
+.button-info button {
+    background-color: var(--secondary-color);
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    color: var(--accent2-color);
+    cursor: pointer;
+    width: 100%;
+}
+
+.profiles {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3rem;
+}
+
+.profiles img {
+    width: 100%;
+    border-radius: 4px;
 }

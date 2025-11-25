@@ -1,0 +1,57 @@
+
+body {
+  font-family: Merriweather, Georgia, serif;
+  font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    background-color: #eee;
+    width: 50%;
+    max-width: 500px;
+    padding: 1.2rem;
+    border-radius: 5px;
+}
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-block: 15px;
+}
+
+span {
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+
+input, textarea, select {
+    border: 1px solid #efef;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.item-button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 100%;
+    background-color: blueviolet;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    height: 45px;
+    color: #efef;
+    font-size: 1rem;
+}
+
