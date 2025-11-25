@@ -173,13 +173,13 @@ footer nav {
     text-align: center;
     opacity: 1;
     background-color: unset;
-    color: var(--primary-color);
+    color: #333;
     font-weight: 500;
 }
 
 .contact-info p {
     margin: 0;
-    color: var(--primary-color);
+    color: #333;
     padding: 5px;
 }
 
