@@ -4,10 +4,236 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Rafting Travels — Trips & Packages</title>
+    <meta name="description"
+        content="Explore our white water rafting trips: beginner-friendly runs, family excursions, and pro-level rapids. View trip details, prices, and book or contact us for group packages.">
+    <meta name="author" content="Sunday Victor Okoromi">
+    <link rel="stylesheet" href="styles/rafting.css" />
 </head>
 
 <body>
+    <header class="site-header">
+        <div class="brand">
+            <a href="index.html"><img src="images/logo.jpg" alt="Rafting Travels Logo" /></a>
+        </div>
+
+        <nav class="site-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html" aria-current="page">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="trips-hero" aria-label="Trips hero">
+            <img src="images/heroimage.jpg" alt="Raft traveling down a canyon river" />
+            <div class="hero-caption">
+                <h1 style="margin:.15rem 0 0;font-size:clamp(1.5rem,2.6vw,2.3rem)">Trips & Packages</h1>
+                <p style="margin:.45rem 0 0">Choose from beginner-friendly runs, family excursions, or pro-level rapids.
+                    Need help picking a trip? Contact us — we're available 24/7.</p>
+            </div>
+        </section>
+
+        <section class="trips-intro" aria-labelledby="trips-intro-heading">
+            <div>
+                <h2 id="trips-intro-heading">Find the right rafting trip for you</h2>
+                <p class="muted">We run daily trips year-round. Each trip is led by certified guides and includes safety
+                    gear and transport from the meeting point (unless otherwise stated).</p>
+            </div>
+
+            <div style="text-align:right">
+                <a class="btn btn-primary contact-cta" href="contact.html" title="Contact Rafting Travels">
+                    Contact Us
+                </a>
+                <div class="muted" style="font-size:.85rem;margin-top:.35rem">Or call +234 90 6948 484</div>
+            </div>
+        </section>
+
+        <!-- Trip cards -->
+        <section class="trips-grid" aria-label="Featured trips">
+            <article class="trip-card" aria-labelledby="trip1-title">
+                <img class="trip-photo" src="images/adv1.webp"
+                    alt="Family enjoying gentle rapids on a beginner rafting trip" />
+                <div class="trip-body">
+                    <h3 id="trip1-title">Beginner Classic — River Calm Run</h3>
+                    <p class="muted">Perfect for first-timers and families. Gentle rapids, scenic stretches, and expert
+                        instruction make this a relaxed introduction to rafting.</p>
+
+                    <div class="trip-meta" aria-hidden="false">
+                        <div class="pill">Duration: Half-day (3–4 hrs)</div>
+                        <div class="pill">Difficulty: Easy</div>
+                        <div class="pill">Price: ₦20,000 / person</div>
+                    </div>
+
+                    <p style="margin-top:.6rem">What to expect: short safety briefing, 2–3 miles of paddling, riverside
+                        picnic spot, optional instructor-led swim/balance practice on calm stretches. Recommended for
+                        ages 8+.</p>
+
+                    <a class="link" href="contact.html">Ask about family discounts & availability</a>
+                </div>
+            </article>
+
+            <article class="trip-card" aria-labelledby="trip2-title">
+                <img class="trip-photo" src="images/adv3.webp"
+                    alt="Paddlers navigating medium rapids with spray and excitement" />
+                <div class="trip-body">
+                    <h3 id="trip2-title">Adventure Intermediate — Rapids Run</h3>
+                    <p class="muted">A full-day trip for paddlers wanting steady thrills: longer rapids, technical
+                        lines, and more sustained paddling sections.</p>
+
+                    <div class="trip-meta">
+                        <div class="pill">Duration: Full-day (6–8 hrs)</div>
+                        <div class="pill">Difficulty: Intermediate</div>
+                        <div class="pill">Price: ₦45,000 / person (lunch included)</div>
+                    </div>
+
+                    <p style="margin-top:.6rem">What to expect: in-depth paddling practice, multiple Class II–III
+                        rapids, guided scouting of challenging sections, riverside lunch and photography. Good fitness
+                        recommended.</p>
+
+                    <a class="link" href="contact.html">Contact us to check trip dates & group rates</a>
+                </div>
+            </article>
+
+            <article class="trip-card" aria-labelledby="trip3-title">
+                <img class="trip-photo" src="images/adv4.webp" alt="Expert paddlers running large, technical rapids" />
+                <div class="trip-body">
+                    <h3 id="trip3-title">Pro Expedition — Rafting Challenge</h3>
+                    <p class="muted">Designed for experienced paddlers seeking a serious adrenaline day. This run
+                        contains sustained, technical rapids and requires prior Rafting experience.</p>
+
+                    <div class="trip-meta">
+                        <div class="pill">Duration: Full-day / multi-paddle</div>
+                        <div class="pill">Difficulty: Advanced</div>
+                        <div class="pill">Price: ₦70,000 / person</div>
+                    </div>
+
+                    <p style="margin-top:.6rem">What to expect: scouting of high-consequence rapids, mandatory safety
+                        briefing and rescue plan, guide support, and footage of the run. Participants must be competent
+                        paddlers and bring personal paddling gear (we can advise).</p>
+
+                    <a class="link" href="contact.html">Request roster availability or private guide</a>
+                </div>
+            </article>
+            <article class="trip-card" aria-labelledby="trip4-title">
+                <img class="trip-photo" src="images/adv5.webp" alt="Expert paddlers running large, technical rapids" />
+                <div class="trip-body">
+                    <h3 id="trip3-title">Corporate Team-Build — Rafting Challenge</h3>
+                    <p class="muted">Designed for group who want to foster team building with a touch of rafting
+                        experience.</p>
+
+                    <div class="trip-meta">
+                        <div class="pill">Duration: Full-day / multi-paddle</div>
+                        <div class="pill">Difficulty: Advanced</div>
+                        <div class="pill">Price: ₦70,000 / person</div>
+                    </div>
+
+                    <p style="margin-top:.6rem">What to expect: scouting of high-consequence rapids, mandatory safety
+                        briefing and rescue plan, guide support, and footage of the run. Participants must be competent
+                        paddlers and bring personal paddling gear (we can advise).</p>
+
+                    <a class="link" href="contact.html">Request roster availability or private guide</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- Trips table -->
+        <section class="trips-table-wrap" aria-labelledby="table-heading">
+            <h2 id="table-heading" style="max-width:1100px;margin:0 auto;padding:0 1rem">All Available Trips — Summary
+            </h2>
+
+            <table class="trips-table" role="table" aria-describedby="table-desc">
+                <caption id="table-desc" style="text-align:left;padding:.5rem 1rem;font-size:.95rem;color:var(--muted)">
+                    Quick reference for trip duration, difficulty, price, meeting point and typical availability.
+                </caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Trip</th>
+                        <th scope="col">Duration</th>
+                        <th scope="col">Difficulty</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Meeting point</th>
+                        <th scope="col">Typical availability</th>
+                        <th scope="col">Notes</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><strong>Beginner Classic — River Calm Run</strong></td>
+                        <td>3–4 hrs (half-day)</td>
+                        <td>Easy</td>
+                        <td>₦20,000</td>
+                        <td>Main River Park carpark</td>
+                        <td>Daily</td>
+                        <td>Family-friendly; ages 8+. Gear provided.</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Adventure Intermediate — Rapids Run</strong></td>
+                        <td>6–8 hrs (full-day)</td>
+                        <td>Intermediate</td>
+                        <td>₦45,000 (lunch incl.)</td>
+                        <td>Riverside Station (shuttle)</td>
+                        <td>Wed, Sat, Sun</td>
+                        <td>Good fitness recommended; photography available.</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Pro Expedition — Rafting Challenge</strong></td>
+                        <td>Full-day / multi-day options</td>
+                        <td>Advanced</td>
+                        <td>₦70,000+</td>
+                        <td>Advanced meeting point (details on booking)</td>
+                        <td>By booking only</td>
+                        <td>Experienced paddlers only; rescue plan in place.</td>
+                    </tr>
+
+                    <!-- example additional rows -->
+                    <tr>
+                        <td><strong>Sunset Float — Scenic</strong></td>
+                        <td>2 hrs</td>
+                        <td>Easy</td>
+                        <td>₦12,000</td>
+                        <td>Main River Park</td>
+                        <td>Seasonal (Nov–Mar)</td>
+                        <td>Relaxed, scenic: great for photographers.</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Corporate Team-Build</strong></td>
+                        <td>Half-day / Full-day</td>
+                        <td>Varies</td>
+                        <td>From ₦65,000 (group)</td>
+                        <td>Riverside Station</td>
+                        <td>Weekdays by booking</td>
+                        <td>Custom packages & catering available.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ⭐ Rafting Travels ⭐ Sunday Victor Okoromi </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="Linkedin Icon">
+            </a>
+        </nav>
+    </footer>
+
 
 </body>
 
